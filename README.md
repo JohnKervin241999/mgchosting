@@ -1,1 +1,4 @@
 # mgchosting
+apt -y install software-properties-common curl apt-transport-https ca-certificates gnupg LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php add-apt-repository ppa:redislabs/redis -yapt update apt -y install php8.1 php8.1-{cli,gd,mysql,pdo,mbstring,tokenizer,bcmath,xml,fpm,curl,zip} mariadb-server nginx tar unzip git redis-server curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composerLC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php add-apt-repository ppa:redislabs/redis -y
+curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash 
+apt update apt -y install php8.1 php8.1-{cli,gd,mysql,pdo,mbstring,tokenizer,bcmath,xml,fpm,curl,zip} mariadb-server nginx tar unzip git redis-server curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
